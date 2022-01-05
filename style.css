@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&family=Poppins:wght@100;200;300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.stayfocus-part{
+    display: flex;
+    display: flex;
+    margin: 5%;
+    background-image: linear-gradient(to right, rgba(223, 113, 208, 0), rgb(204, 131, 247));
+    border-radius : 10px;
+}
+.focus-text{
+    width: 50%;
+    padding-right: 10px ;
+}
+.focus-text h1{
+    font-size: 40px;
+}
+.focus-text h1 span{
+    color: rgb(120, 67, 245);;
+}
+.focus-text p{
+    padding-top: 40px;
+}
+.focus-button{
+    padding: 40px 0;
+    
+}
+
+.focus-button a{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(132, 0, 255), rgb(255, 0, 242));
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5px;   
+}
+.focus-hero{
+    width: 50%;
+    padding-left: 350px;
+}
+.focus-hero img{
+    padding: 10px;
+    width: 500px;
+    border-radius: 1000px;
+}
+.mission-2022{
+    padding: 5%;
+}
+.mission-2022 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500px;
+    padding: 10px;
+    
+}
+.mission-2022 h1 span{
+    color: rgb(120, 67, 245);;
+}
+.msn-vsn-gol{
+    display: flex;
+    margin: 2px;
+    padding: 10px;
+}
+.msn-vsn-gol img{
+    width: 100px;
+}
+.msn-vsn-gol h3{
+    font-size: 26px;
+    
+}
+.msn-vsn-gol p{
+    font-size: 18px;
+}
+.mission {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    padding: 50px ;
+    background-image: linear-gradient(to top, rgba(223, 113, 208, 0), rgb(37, 135, 247));
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.vision {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    padding: 50px ;
+    background-image: linear-gradient(to top, rgba(223, 113, 208, 0), rgb(247, 216, 37));
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
+}
+.goals{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    padding: 50px ;
+    background-image: linear-gradient(to top, rgba(223, 113, 208, 0), rgb(247, 121, 37));
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+
