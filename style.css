@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&family=Poppins:wght@100;200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&family=Pacifico&family=Poppins:wght@100;200;300;500&display=swap');
 
 
 *{
@@ -9,29 +10,37 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* Section-1 */
 .stayfocus-part{
-    display: flex;
     display: flex;
     margin: 5%;
     background-image: linear-gradient(to right, rgba(223, 113, 208, 0), rgb(204, 131, 247));
     border-radius : 10px;
+    
+}
+.left-border{
+    border-left: 5px solid rgb(183, 0, 255);
+    padding-left: 20px;
+    border-image-slice: 10%;
+    border-radius: 5px;
 }
 .focus-text{
     width: 50%;
     padding-right: 10px ;
 }
 .focus-text h1{
-    font-size: 40px;
+    font-size: 50px;
+    padding-top: 20px;
 }
-.focus-text h1 span{
-    color: rgb(120, 67, 245);;
+.focus-text span {
+    color: rgb(120, 67, 245);
 }
 .focus-text p{
     padding-top: 40px;
+    font-size: 20px;   
 }
 .focus-button{
-    padding: 40px 0;
-    
+    padding: 40px 0;    
 }
 
 .focus-button a{
@@ -50,18 +59,21 @@ body{
     width: 500px;
     border-radius: 1000px;
 }
+/* Section-2 */
+
+
 .mission-2022{
     padding: 5%;
 }
 .mission-2022 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500px;
-    padding: 10px;
+    padding-bottom: 50px;
     
 }
 .mission-2022 h1 span{
-    color: rgb(120, 67, 245);;
+    color: rgb(120, 67, 245);
 }
 .msn-vsn-gol{
     display: flex;
@@ -77,6 +89,7 @@ body{
 }
 .msn-vsn-gol p{
     font-size: 18px;
+    
 }
 .mission {
     margin: 10px;
@@ -113,4 +126,112 @@ body{
     box-shadow: 10px 10px 5px grey;
 }
 
+/* Section-3 */
 
+.web-dev{
+    display: flex;
+    margin: 5%;
+    background-image: linear-gradient(to right, rgba(223, 113, 208, 0), rgb(204, 131, 247));
+    border-radius: 10px;
+}
+
+.dev-hero{
+    width: 50%;
+    padding-right: 320px; 
+
+}
+.dev-hero img{
+    padding: 10px;
+    width: 500px;
+    border-radius: 20px;   
+    
+}
+.web-dev-content{
+    padding-right: 100px;
+}
+.web-dev-content h1{
+    font-size: 40px;
+    padding-top: 50px;
+    
+}
+.web-dev-content h2{
+    font-size: 40px;
+}
+.web-dev-content p{
+    padding:10px 0 20px 0;  
+   
+}
+
+.dev-btn {
+    padding: 40px 0;
+}
+.dev-btn a{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(132, 0, 255), rgb(255, 0, 242));
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5px;  
+}
+/* Section-4 */
+.web-demand{
+    display: flex;
+    margin: 5%;
+    background-image: linear-gradient(to right, rgba(223, 113, 208, 0), rgb(204, 131, 247));
+    border-radius : 10px;
+    
+}
+.demnad-content{
+    width: 50%;
+    padding-right: 10px ;
+}
+.demnad-content h1{
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.demnad-content p{
+    padding-top: 40px;
+    font-size: 18px;   
+}
+.documentation-button{
+    padding: 40px 0;    
+}
+
+.documentation-button a {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(132, 0, 255), rgb(255, 0, 242));
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5px;   
+}
+.demand-hero{
+    width: 50%;
+    padding-left: 350px;
+}
+.demand-hero img{
+    padding: 10px;
+    width: 500px;
+}
+
+
+/* Footer */
+footer{
+    background-color: rgb(128, 19, 201);
+    text-align: center;
+    padding: 20px;
+    color: rgb(245, 239, 239);
+}
+footer h1{
+    font-family: 'Pacifico', cursive;    
+}
+footer span {
+    color: red;
+}
+
+
+
+
+
+/* Section-2 */
+/* Section-2 */
+/* Section-2  */
